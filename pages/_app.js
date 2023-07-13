@@ -16,7 +16,10 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="women love and relationship is a blog that guides you on your journey. we provide young adult women and older women information they need to achieve a long and healthy relationship"
+          content="Martins Greg James is an investment broker and financial adviser
+           martins portfolio are proof that he has huge experience under his sleeves;
+           working with him will change your finanical life toward complete financial freedom.
+           "
         />
         <meta name="keywords" content="love, relationship happiness" />
         <link rel="stylesheet" href="/final/fontawesome.min.css" />
@@ -24,14 +27,13 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/swiper/owl.theme.default.css" />
         <link rel="stylesheet" href="/swiper/css/swiper-bundle.min.css" />
         {/* <link rel="stylesheet" href="./final/index.min.css" /> */}
-        <title>WomenLoveAndRelationships😃</title>
+        <title>Martins Greg James</title>
 
         <script src="/jquery.3.4.1.js?cd=123"></script>
         <script src="/swiper/owl.carousel.min.js"></script>
         <script src="/final/all.js"></script>
         <script src="/swiper/js/swiper-bundle.min.js"></script>
       </Head>
-
       <Component {...pageProps} />
     </>
   );
