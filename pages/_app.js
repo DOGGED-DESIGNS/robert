@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
            martins portfolio are proof that he has huge experience under his sleeves;
            working with him will change your finanical life toward complete financial freedom.
            "
+          keyword
         />
         <meta name="keywords" content="love, relationship happiness" />
         <link rel="stylesheet" href="/final/fontawesome.min.css" />
