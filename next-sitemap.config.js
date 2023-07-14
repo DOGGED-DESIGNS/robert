@@ -1,4 +1,4 @@
-const siteUrl = "https://www.womenloveandrelationships.com/";
+const siteUrl = "https://www.martingregjames.com/";
 module.exports = {
   siteUrl,
   generateRobotsTxt: true,
