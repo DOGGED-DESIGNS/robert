@@ -21,6 +21,9 @@ function MyApp({ Component, pageProps }) {
            working with him will change your finanical life toward complete financial freedom.
            "
         />
+        <meta name="robots" content="index" />
+        <meta name="robots" content="index" />
+
         <meta
           name="keywords"
           content="martinjamesgreg broker crypto financial adviser "
