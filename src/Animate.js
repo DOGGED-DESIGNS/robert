@@ -19,6 +19,10 @@ const Animatez = () => {
         stiffness: 200,
       },
     },
+    exit: {
+      opacity: 0,
+      y: "-20px",
+    },
   };
 
   // scale container
@@ -30,6 +34,7 @@ const Animatez = () => {
       opacity: 0,
       y: "100px",
     },
+
     animate: {
       opacity: 1,
       y: 0,
@@ -39,14 +44,18 @@ const Animatez = () => {
         stiffness: 200,
       },
     },
+    exit: {
+      opacity: 0,
+      y: "-20px",
+    },
   };
 
   const menu = {
     initial: {
-      width: "22px",
+      width: "34px",
     },
     animate: {
-      width: "22px",
+      width: "34px",
       transition: {
         type: "string",
         when: "beforechildren",
@@ -57,13 +66,11 @@ const Animatez = () => {
 
   const menuchild = {
     initial: {
-      width: "22px",
-      bacground: "red",
+      width: 22,
     },
 
     animate: {
       width: [22, 0, 22],
-      bacground: "red",
     },
   };
 

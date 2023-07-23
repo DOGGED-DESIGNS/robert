@@ -1,6 +1,7 @@
 // pages/_app.js
 
 import Head from "next/head";
+
 import "../styles/global.css";
 
 // import { ThemeProvider } from "@mui/material/styles";
@@ -26,7 +27,7 @@ function MyApp({ Component, pageProps }) {
 
         <meta
           name="keywords"
-          content="martinjamesgreg broker crypto financial adviser "
+          content="martinjamesgreg, forex, broker, crypto, financial adviser "
         />
         <meta name="keywords" content="love, relationship happiness" />
         <link rel="stylesheet" href="/final/fontawesome.min.css" />
