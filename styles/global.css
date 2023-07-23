@@ -10868,7 +10868,16 @@ html {
   height: auto;
 }
 .tab__contz::-webkit-scrollbar {
-  height: 0px;
+  height: 7px;
+  background: #f5f5f5;
+  width: 20px;
+}
+.tab__contz::-webkit-scrollbar-thumb {
+  background: #f26323;
+  border-radius: 4px;
+}
+.tab__contz::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
 }
 .tab__button {
   display: -webkit-box;
@@ -10876,7 +10885,7 @@ html {
   display: flex;
   width: 940px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 7px;
 }
 .tab__button > button {
   padding: 20px 35px;
@@ -10895,7 +10904,8 @@ html {
 }
 @media (max-width: 780px) {
   .tab__button > button {
-    padding: 10px 25px;
+    padding: 5px 19px;
+    font-size: 15px;
   }
 }
 .tab__button > button:hover {
@@ -10903,14 +10913,24 @@ html {
   color: #f26323;
 }
 .tab__tab {
-  padding: 8px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 40px;
   border: 2px solid #cccacb;
   max-width: 940px;
-  margin: auto;
 }
 .buttonactive {
   background: rgba(0, 0, 0, 0) !important;
   color: #f26323 !important;
+}
+.finra {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 30px;
+}
+.finra > img {
+  width: 100%;
+  height: 100%;
 }
 .contact {
   border: 1px solid border;
@@ -10940,6 +10960,7 @@ html {
   border: rgba(0, 0, 0, 0);
   height: 175px;
   margin: auto;
+  margin-top: 30px;
   padding: 7px;
   display: block;
   padding-left: 10px;
@@ -10962,7 +10983,7 @@ html {
   background: #cccacb;
   display: block;
   margin: auto;
-  margin-bottom: 30px;
+  margin-top: 30px;
   outline: none;
   border-radius: 30px;
   border: rgba(0, 0, 0, 0);
@@ -10980,6 +11001,7 @@ html {
 .contact__form {
   max-width: 490px;
   margin: auto;
+  margin-top: 40px;
 }
 .contact__h2 {
   color: #f26323;
@@ -11409,15 +11431,5 @@ html {
   object-fit: cover;
   border-radius: 6px;
   overflow: hidden;
-}
-
-.finra {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 30px;
-}
-.finra > img {
-  width: 100%;
-  height: 100%;
 }
 /*# sourceMappingURL=index.min.css.map */
