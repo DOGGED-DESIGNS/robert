@@ -11410,4 +11410,14 @@ html {
   border-radius: 6px;
   overflow: hidden;
 }
+
+.finra {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 30px;
+}
+.finra > img {
+  width: 100%;
+  height: 100%;
+}
 /*# sourceMappingURL=index.min.css.map */

@@ -233,11 +233,11 @@ const index = () => {
             className="header__mover2"
           >
             <motion.p variants={genchild} className="header__p">
-              this is what i want to do with my live
+              Financial Market Expert, Broker, Investment Adviser
             </motion.p>
 
             <motion.h1 variants={genchild} className="header__h1">
-              Financial freedom is what everyone seeks to attain
+              Martin Greg James
             </motion.h1>
 
             <motion.button
@@ -395,15 +395,7 @@ const index = () => {
               }}
               className={indexz == 1 && "buttonactive"}
             >
-              examination
-            </button>
-            <button
-              onClick={() => {
-                setIndexz(2);
-              }}
-              className={indexz == 2 && "buttonactive"}
-            >
-              Finra
+              My_story_and_services
             </button>
             <button
               onClick={() => {
@@ -411,7 +403,15 @@ const index = () => {
               }}
               className={indexz == 3 && "buttonactive"}
             >
-              storries
+              License_And_Resgistration
+            </button>
+            <button
+              onClick={() => {
+                setIndexz(2);
+              }}
+              className={indexz == 2 && "buttonactive"}
+            >
+              Experience
             </button>
             <button
               onClick={() => {
@@ -419,7 +419,7 @@ const index = () => {
               }}
               className={indexz == 4 && "buttonactive"}
             >
-              mission
+              Examinations
             </button>
           </div>
         </div>
@@ -433,8 +433,97 @@ const index = () => {
               exit="exit"
               className="tab__tab"
             >
-              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-              <p>this is the first lorem30</p>
+              <div className="row">
+                <div className="  col-sm-12 col-md-6 col-lg-6">
+                  <h3 className="font-weight-bold roboto text-capitalize">
+                    my story
+                  </h3>
+                  <p className="mt-3 rale">
+                    I am a professional Investment Adviser with over 10 years of
+                    experience in leading clients in making highly profitable
+                    investment decisions in financial market such as <br />
+                    <br />
+                    <span className="text-capitalize font-weight-bold">
+                      crypto <br />
+                    </span>
+                    <span className="text-capitalize font-weight-bold">
+                      stock <br />
+                    </span>
+                    <span className="text-capitalize font-weight-bold">
+                      hedge funds <br />
+                    </span>
+                    <span className="text-capitalize font-weight-bold">
+                      forex <br />
+                    </span>
+                    <span className=" text-capitalize font-weight-bold">
+                      Real Estate
+                      <br /> <br />
+                    </span>
+                    and other financial markets. At TRUIST ADVISORY SERVICES,
+                    INC, I lead clients through tough investment decisions and
+                    help bridge the gap between financial challenges and
+                    aspirations. I provide wealth management insight, problem
+                    solving, and implementation of financial plans & investment
+                    solutions to help clients obtain the lifestyle they aspire
+                    to. <br /> <br /> I have a personalized approach in bringing
+                    all the pieces of your financial life together. I have met
+                    extensive training with experience requirements and i am
+                    committed to an ethical standards that require me to put my
+                    clients' interests first.
+                  </p>
+                </div>
+
+                <div className="  col-sm-12 col-md-6 col-lg-6">
+                  <h3 className="font-weight-bold roboto text-capitalize">
+                    services
+                  </h3>
+
+                  <ul className=" pl-5">
+                    <li className=" text-capitalize">
+                      stock market trading/ investment
+                    </li>
+                    <li className=" text-capitalize"> forex </li>
+                    <li className=" text-capitalize"> crypto </li>
+                    <li className=" text-capitalize"> Hedge Funds </li>
+                    <li className=" text-capitalize"> Real Estate </li>
+                    <li className=" text-capitalize">
+                      professional portfolio management
+                    </li>
+                    <li className=" text-capitalize"> mentorship program </li>
+                    <li className=" text-capitalize"> retirement planning</li>
+                    <li className=" text-capitalize">
+                      Executive financial services
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="row">
+                  <div className="  col-sm-12 p-2 my-2 col-md-3 col-lg-3 ">
+                    <h3 className="  font-weight-bold text-center">$8M</h3>
+                    <p className="  text-black-50 font-weight-bold  text-capitalize text-center">
+                      estimated profit accumulated
+                    </p>
+                  </div>
+                  <div className="  col-sm-12 p-2 my-2 col-md-3 col-lg-3 ">
+                    <h3 className="  font-weight-bold text-center">4k</h3>
+                    <p className="  text-black-50 font-weight-bold  text-capitalize text-center">
+                      active clients portfolios
+                    </p>
+                  </div>
+                  <div className="  col-sm-12 p-2 my-2 col-md-3 col-lg-3 ">
+                    <h3 className="  font-weight-bold text-center">85%</h3>
+                    <p className="  text-black-50 font-weight-bold  text-capitalize text-center">
+                      visitor-client converstion
+                    </p>
+                  </div>
+                  <div className="  col-sm-12 p-2 my-2 col-md-3 col-lg-3 ">
+                    <h3 className="  font-weight-bold text-center">100%</h3>
+                    <p className="  text-black-50 font-weight-bold pr-3  text-capitalize text-center">
+                      quality and satisfaction gurantee
+                    </p>
+                  </div>
+                </div>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
@@ -447,8 +536,65 @@ const index = () => {
               exit="exit"
               className="tab__tab"
             >
-              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-              <p>this is the second</p>
+              <h3 class="font-weight-bold roboto text-capitalize">
+                Experience
+              </h3>
+              <p class="mt-3 ">
+                <p class=" my-3 pl-5 robot ">
+                  <small class=" text-uppercase font-weight-bold">
+                    {" "}
+                    2019 - current <br />
+                  </small>
+                  BROKER | TRUIST INVESTMENT SERVICES, INC.(CRD*:17499) <br />
+                  <small>
+                    <i>
+                      1605 lakewood ranch blvd, <br /> bradenton, FL 34209{" "}
+                    </i>{" "}
+                    <br />
+                  </small>
+                </p>
+                <p class=" my-3 pl-5">
+                  <small class=" text-uppercase font-weight-bold">
+                    {" "}
+                    2020 - current <br />
+                  </small>
+                  INVESTMENT ADVISER | TRUIST ADVISORY SERVICES,
+                  INC.(CRD#:283390) <br />
+                  <small>
+                    <i>
+                      7419 manatee aenue west suite pb , <br /> bradenton, FL
+                      34211{" "}
+                    </i>{" "}
+                    <br />
+                  </small>
+                </p>
+                <p class=" my-3 pl-5">
+                  <small class=" text-uppercase font-weight-bold">
+                    {" "}
+                    2017 - 2019 <br />
+                  </small>
+                  BMO HARRIS FINANCIAL ADVISORS, INC(CRD#:137115) <br />
+                  <small>
+                    <i> BARTLETT, IL </i> <br />
+                  </small>
+                </p>
+                <p class=" my-3 pl-5">
+                  <small class=" text-uppercase font-weight-bold">
+                    {" "}
+                    2011 - 2012 <br />
+                  </small>
+                  PNC INVESTMENTS (CRD#:129052) <br />
+                  <small> DOWNERS GROVE, IL</small>
+                </p>
+                <p class=" my-3 pl-5">
+                  <small class=" text-uppercase font-weight-bold">
+                    {" "}
+                    2008 - 2011 <br />
+                  </small>
+                  CHASE INVESTMENT SERVICES CORP.(CRD#:25574) <br />
+                  <small>DOWNERS GROVE, IL</small>
+                </p>
+              </p>
             </motion.div>
           )}
         </AnimatePresence>
@@ -461,8 +607,91 @@ const index = () => {
               exit="exit"
               className="tab__tab"
             >
-              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-              <p>this is the third</p>
+              <div>
+                <a className="mb-0" href="" target="_blank">
+                  <div className=" finra ">
+                    <img
+                      className="border shadow"
+                      src="/asset/img/finra.jpg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+                <a
+                  href=""
+                  className=" mb-4 d-block  roboto font-weight-bold text-uppercase"
+                  target="_blank"
+                >
+                  JEFFREY MATTHEW PATTEN IS A LICENSED BROKER AND INVESTMENT
+                  ADVISER CERTIFIED BY FINRA <i>CRD#:5481482</i>{" "}
+                </a>
+                <p>
+                  The Financial Industry Regulatory Authority(finra) is a
+                  private American coporation that acts as a self -regulatory
+                  organization that regulates member brokerage firms and
+                  exchange markets.
+                </p>
+                <br />
+                <p>
+                  It's stated mission is "to safeguard the investing public
+                  against fraud and bad practices."
+                </p>
+                <br />
+                <p>
+                  FINRA was created as the result of consolidation of the
+                  National Association of Securities Dealers (NASD) and the
+                  member regulation, enforcement, and arbitration operations of
+                  the New York Stock Exchange (NYSE) in 2007. The consolidation
+                  was meant to do away with overlapping or redundant regulation
+                  and reduce the cost and complexity of compliance. <br />
+                  <br />
+                  <i className=" font-weight-bolder ">KEY TAKEAWAYS</i>
+                </p>
+                <ul className="pl-5">
+                  <li>
+                    The Financial Industry Regulatory Authority (FINRA) writes
+                    and enforces rules that govern registered brokers and
+                    broker-dealer firms in the united states.
+                  </li>
+                  <li>
+                    FINRA also administers te qualifying exams for securities
+                    professionals
+                  </li>
+                  <li>
+                    FINRA provides resources, such as BrokerCheck, that help to
+                    protect investors
+                  </li>
+                  <li>
+                    The general criticism of all self-reglulatory agencies,
+                    including FINRA, is that they do just enough to maintain the
+                    public's trust
+                  </li>
+                  <li>
+                    FINRA'S monthly report of diciplinary activity refers only
+                    to formal actions and leaves out informal ones such as
+                    cautionaey letters to firms or individuals. <br />
+                  </li>
+                </ul>
+                <p>
+                  <i className=" font-weight-bolder text-uppercase ">
+                    Understanding FINRA
+                  </i>{" "}
+                  <br />
+                  <i className=" font-weight-bolder text-uppercase">
+                    Oversight Role
+                  </i>{" "}
+                </p>
+                <br />
+                <p>
+                  The Financial Industry Regulatory Authority (FINRA) is the
+                  single largest independent regulaory body for securities firms
+                  operating in the united state. It overseas more than 3,400
+                  brokerage firms, 15,200 branch offices, and nearly 617,550
+                  registered securities representatives, as of 2020,4 FINRA has
+                  19 offices across the United States and approximately 3,600
+                  employees.
+                </p>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
@@ -475,8 +704,41 @@ const index = () => {
               exit="exit"
               className="tab__tab"
             >
-              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-              <p>this is the foruth</p>
+              <h3 className="font-weight-bold roboto text-capitalize">
+                Education
+              </h3>
+              <p className="mt-3"></p>
+              <ul className=" pl-5">
+                <li className=" text-capitalize py-2">
+                  series 65 - uniform investment Adviser law examination
+                  <small class="d-block">
+                    {" "}
+                    <i>feb 24, 2020</i>
+                  </small>
+                </li>
+                <li className=" text-capitalize py-2">
+                  series 63 - uniform investment Agent law examinaation
+                  <small class="d-block">
+                    {" "}
+                    <i>jun 28 2017</i>
+                  </small>
+                </li>
+                <li className=" text-capitalize py-2">
+                  SIE - securities industry essentials examination
+                  <small class="d-block">
+                    {" "}
+                    <i>oct 1, 2018</i>
+                  </small>
+                </li>
+                <li className=" text-capitalize py-2">
+                  series 6 - investment company products/variable contracts
+                  representative examination
+                  <small className="d-block">
+                    {" "}
+                    <i>may 1, 2017</i>
+                  </small>
+                </li>
+              </ul>
             </motion.div>
           )}
         </AnimatePresence>
