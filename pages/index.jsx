@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Makepost from "@/hooks/makepost";
 
 import Animatez from "@/Animate";
 import { Scale } from "@mui/icons-material";
@@ -7,6 +8,10 @@ import { Scale } from "@mui/icons-material";
 const index = () => {
   const { menu, menuchild, supplychild, supplycont, genchild, gencont } =
     Animatez();
+
+  const [error, setError] = useState(false);
+
+  const { addContacts, addcontact, setAddcontact } = Makepost();
 
   const [toggle, setToggle] = useState(false);
   const [indexz, setIndexz] = useState(1);
@@ -18,7 +23,7 @@ const index = () => {
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   // const passwordRegex = /^.{6,}$/;
   // const passwordRegexconfirm = /^.{6,}$/;
-  const textarea = /^[a-zA-Z0-9_-]{2,225}$/;
+  const textarea = /^[a-zA-Z0-9_-\s]{2,225}$/;
   const username = /^[a-zA-Z0-9_-]{2,20}$/;
 
   useEffect(() => {
@@ -131,171 +136,150 @@ const index = () => {
 
   return (
     <>
-      <header className="header">
-        <img className="header__img" src="./asset/img/city.png" alt="" />
-        <div className="main header__mover">
-          <motion.nav
-            variants={supplycont}
-            initial="initial"
-            animate="animate"
-            className="nav"
-          >
-            <div className="nav__logo">
-              <img src="./asset/icons/martins.svg" alt="" />
-            </div>
+      <header className="main header">
+        <motion.nav
+          variants={supplycont}
+          initial="initial"
+          animate="animate"
+          className="nav"
+        >
+          <div className="nav__logo">
+            <img src="./asset/icons/robert.svg" alt="" />
+          </div>
 
-            <div className="nav__link">
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-              <a href="#"> Home </a>
-            </div>
+          <div className="nav__link">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#"> Home </a>
+          </div>
 
-            <div className="nav__social">
-              <a href="#">
-                {" "}
-                <i className="fab fa-facebook"></i>{" "}
-              </a>
-              <a href="#">
-                {" "}
-                <i className="fab fa-telegram"></i>{" "}
-              </a>
-              <a href="#">
-                {" "}
-                <i className="fab fa-instagram"></i>{" "}
-              </a>
-              <a href="#">
-                {" "}
-                <i className="fab fa-whatsapp"></i>{" "}
-              </a>
-            </div>
-          </motion.nav>
-          <motion.nav
-            variants={genchild}
-            initial="initial"
-            whileInView="animate"
-            animate="animate"
-            className="nav2"
-          >
-            <div className="nav__logo">
-              <img src="./asset/icons/martins.svg" alt="" />
-            </div>
-
-            <motion.div
-              variants={menu}
-              initial="initial"
-              onClick={() => {
-                setToggle(!toggle);
-              }}
-              whileTap={"animate"}
-              whileInView="animate"
-              className="nav2__ham"
-            >
-              <motion.span variants={menuchild}></motion.span>
-              <motion.span variants={menuchild}></motion.span>
-              <motion.span variants={menuchild}></motion.span>
-            </motion.div>
-          </motion.nav>
-
-          {
-            <AnimatePresence>
-              {toggle && (
-                <motion.div
-                  variants={genchild}
-                  initial="initial"
-                  animate="animate"
-                  className="navsmallzz"
-                  exit="exit"
-                >
-                  <div className="d-flex i">
-                    <i
-                      onClick={() => {
-                        setToggle(false);
-                      }}
-                      className="fa p-3 fa-times ml-auto"
-                    >
-                      {" "}
-                    </i>
-                  </div>
-                  <div className="navsmallzz__a">
-                    <a href="">Home</a>
-                    <a href="">Contact</a>
-                    <a href="">About</a>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          }
+          <div className="nav__social">
+            <a href="#">
+              {" "}
+              <i className="fab fa-facebook"></i>{" "}
+            </a>
+            <a href="#">
+              {" "}
+              <i className="fab fa-telegram"></i>{" "}
+            </a>
+            <a href="#">
+              {" "}
+              <i className="fab fa-instagram"></i>{" "}
+            </a>
+            <a href="#">
+              {" "}
+              <i className="fab fa-whatsapp"></i>{" "}
+            </a>
+          </div>
+        </motion.nav>
+        <motion.nav
+          variants={genchild}
+          initial="initial"
+          whileInView="animate"
+          animate="animate"
+          className="nav2"
+        >
+          <div className="nav__logo">
+            <img src="./asset/icons/martins.svg" alt="" />
+          </div>
 
           <motion.div
-            variants={gencont}
+            variants={menu}
             initial="initial"
-            animate="animate"
-            className="header__mover2"
+            onClick={() => {
+              setToggle(!toggle);
+            }}
+            whileTap={"animate"}
+            whileInView="animate"
+            className="nav2__ham"
           >
-            <motion.p variants={genchild} className="header__p">
-              Financial Market Expert, Broker, Investment Adviser
-            </motion.p>
+            <motion.span variants={menuchild}></motion.span>
+            <motion.span variants={menuchild}></motion.span>
+            <motion.span variants={menuchild}></motion.span>
+          </motion.div>
+        </motion.nav>
 
-            <motion.h1 variants={genchild} className="header__h1">
-              Martin Greg James
-            </motion.h1>
-
-            <motion.button
-              whileTap={{
-                originx: 0,
-                scale: 0.9,
-              }}
-              variants={genchild}
-              className="header__button"
-            >
-              contact
-            </motion.button>
+        {
+          <AnimatePresence>
+            {toggle && (
+              <motion.div
+                variants={genchild}
+                initial="initial"
+                animate="animate"
+                className="navsmallzz"
+                exit="exit"
+              >
+                <div className="d-flex i">
+                  <i
+                    onClick={() => {
+                      setToggle(false);
+                    }}
+                    className="fa p-3 fa-times ml-auto"
+                  >
+                    {" "}
+                  </i>
+                </div>
+                <div className="navsmallzz__a">
+                  <a href="">Home</a>
+                  <a href="">Contact</a>
+                  <a href="">About</a>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        }
+        <div className="main header__grid">
+          <motion.div variants={genchild} initial="initial" animate="animate">
+            <h1 className="header__h1">
+              Robert Miller.
+              <br />A Financial Market Expert, Broker, Investment Adviser
+            </h1>
+          </motion.div>
+          <motion.div variants={genchild} initial="initial" animate="animate">
+            <p className="header__p">
+              I am a professional Investment Adviser with over 10 years of
+              experience in leading clients in making highly profitable
+              investment decisions in financial market such as <br />
+            </p>
+            <ul className="header__ul">
+              <li>crypto</li>
+              <li>stock</li>
+              <li>hedge funds</li>
+              <li>forex</li>
+              <li>Real Estate</li>
+            </ul>
+            <div className="d-flex">
+              <button className="header__button">contact me</button>
+            </div>
           </motion.div>
         </div>
       </header>
 
-      <section className="trust main">
-        <h1 className="trust__h1">How it works</h1>
-        <p className="trust__p">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          eaque eligendi ipsum magni quae asperiores deserunt sint sunt, maxime
-          enim eos alias officia earum aut ullam quisquam? Reiciendis, voluptas
-          optio!
-        </p>
-
-        <div className="trust__grid">
-          <div>
-            <div className="shadow-sm trust__grid--cont">
-              <h3 className="trust__grid--h3">Reliable</h3>
-              <p className="trust__grid--p">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
-                esse eum reprehenderit provident accusamus. Placeat facere fuga
-                ullam at ratione!
-              </p>
+      <motion.div
+        variants={genchild}
+        initial="initial"
+        animate="animate"
+        whileInView={"animate"}
+        className="trust main"
+      >
+        <div className="trust__display">
+          <img src="./asset/img/city.png" alt="" />
+          <div className="trust__mover">
+            <div>
+              <p>| Lorem, ipsum dolor.</p>
+              <h1>85%</h1>
             </div>
-          </div>
-          <div>
-            <div className="shadow-sm trust__grid--cont">
-              <h3 className="trust__grid--h3">Trusted</h3>
-              <p className="trust__grid--p">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
-                esse eum reprehenderit provident accusamus. Placeat facere fuga
-                ullam at ratione!
-              </p>
+            <div>
+              <p>| Lorem, ipsum dolor.</p>
+              <h1>85%</h1>
             </div>
-          </div>
-          <div>
-            <div className="shadow-sm trust__grid--cont">
-              <h3 className="trust__grid--h3">On Time</h3>
-              <p className="trust__grid--p">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
-                esse eum reprehenderit provident accusamus. Placeat facere fuga
-                ullam at ratione!
-              </p>
+            <div>
+              <p>| Lorem, ipsum dolor.</p>
+              <h1>85%</h1>
             </div>
           </div>
         </div>
-      </section>
+      </motion.div>
 
       <section className="core main">
         <div className="core__grid">
@@ -875,7 +859,112 @@ const index = () => {
           </div>
 
           <div className="contact__form">
-            <form action="">
+            <form
+              onSubmit={async (e) => {
+                e.preventDefault();
+
+                if (
+                  e.target.elements.name.value == "" ||
+                  e.target.elements.email.value == "" ||
+                  e.target.elements.des.value == ""
+                ) {
+                  setError(true);
+                } else {
+                  const formz = new FormData();
+
+                  formz.append("message", "addcontact");
+                  formz.append("des", e.target.elements.des.value);
+                  formz.append("email", e.target.elements.email.value);
+                  formz.append("name", e.target.elements.name.value);
+
+                  await addContacts(formz);
+                  setError(false);
+                }
+              }}
+              action=""
+            >
+              <AnimatePresence>
+                {error && (
+                  <motion.div
+                    initial={{
+                      y: "-20%",
+                      // position: "fixed",
+                      // opacity: 0,
+                    }}
+                    animate={{
+                      // opacity: 1,
+                      // position: "fixed",
+                      y: 0,
+                    }}
+                    exit={{
+                      y: "-20%",
+                      opacity: 0,
+                      transition: {
+                        //   type: "spring",
+                        //   stiffness: 200,
+                      },
+                    }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 300,
+                    }}
+                    className={` my-3 alert alert-danger fade show`}
+                  >
+                    <strong>Please fill all form field</strong>
+
+                    <div
+                      className=" mx-2 close alert-dismissable mx-3 "
+                      onClick={() => {
+                        setError(false);
+                      }}
+                    >
+                      {" "}
+                      &times;{" "}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+              <AnimatePresence>
+                {addcontact?.message && (
+                  <motion.div
+                    initial={{
+                      y: "-20%",
+                      // position: "fixed",
+                      // opacity: 0,
+                    }}
+                    animate={{
+                      // opacity: 1,
+                      // position: "fixed",
+                      y: 0,
+                    }}
+                    exit={{
+                      y: "-20%",
+                      opacity: 0,
+                      transition: {
+                        //   type: "spring",
+                        //   stiffness: 200,
+                      },
+                    }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 300,
+                    }}
+                    className={` my-3 alert alert-${addcontact?.type} fade show`}
+                  >
+                    <strong>{addcontact?.message}</strong>
+
+                    <div
+                      className=" ml-5 close alert-dismissable mx-3 "
+                      onClick={() => {
+                        setAddcontact({});
+                      }}
+                    >
+                      {" "}
+                      &times;{" "}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
               <input
                 onChange={(e) => {
                   if (username.test(e.target.value)) {
@@ -887,6 +976,7 @@ const index = () => {
                 placeholder="name"
                 className="   contact__input"
                 type="text"
+                name="name"
               />
               <AnimatePresence>
                 {name && (
@@ -912,6 +1002,7 @@ const index = () => {
                 placeholder="email"
                 className="   contact__input"
                 type="text"
+                name="email"
               />
               <AnimatePresence>
                 {email && (
@@ -936,7 +1027,7 @@ const index = () => {
                   }
                 }}
                 className="  contact__text"
-                name=""
+                name="des"
                 id=""
                 cols="30"
                 rows="10"

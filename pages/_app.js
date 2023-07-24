@@ -1,6 +1,7 @@
 // pages/_app.js
 
 import Head from "next/head";
+import General from "@/hooks/context/General";
 
 import "../styles/global.css";
 
@@ -17,31 +18,33 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="martin Greg James is an investment broker and financial adviser
-           martin portfolio are proof that he has huge experience under his sleeves;
-           working with him will change your finanical life toward complete financial freedom.
+          content="Unlock the Path to Financial Prosperity with Robert Miller, a seasoned Financial Adviser an investment broker. Allow Robert guide you through the complexities of the financial world, tailoring strategies to your unique goals.
+          working with Robert will change your finanical life toward complete financial freedom.
            "
         />
+
         <meta name="robots" content="index" />
         <meta name="robots" content="index" />
         <meta
           name="keywords"
-          content="martinjamesgreg, forex, broker, crypto, financial adviser "
+          content="RobertMiller, Robert ,forex, broker, crypto, financial adviser "
         />
         <meta name="keywords" content="love, relationship happiness" />
         <link rel="stylesheet" href="/final/fontawesome.min.css" />
         <link rel="stylesheet" href="/swiper/owl.carousel.min.css" />
         <link rel="stylesheet" href="/swiper/owl.theme.default.css" />
         <link rel="stylesheet" href="/swiper/css/swiper-bundle.min.css" />
-        <link rel="shortcut icon" href="/asset/img/martinsshort.png" />
+        <link rel="shortcut icon" href="/asset/img/robertshort.png" />
         {/* <link rel="stylesheet" href="./final/index.min.css" /> */}
-        <title>martin Greg James</title>
+        <title>Rober Miller</title>
         <script src="/jquery.3.4.1.js?cd=123"></script>
         <script src="/swiper/owl.carousel.min.js"></script>
         <script src="/final/all.js"></script>
         <script src="/swiper/js/swiper-bundle.min.js"></script>
       </Head>
-      <Component {...pageProps} />
+      <General>
+        <Component {...pageProps} />
+      </General>
     </>
   );
 }
