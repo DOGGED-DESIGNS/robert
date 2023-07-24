@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Unlock the Path to Financial Prosperity with Robert Miller, a seasoned Financial Adviser an investment broker. Allow Robert guide you through the complexities of the financial world, tailoring strategies to your unique goals.
+          content="Unlock the Path to Financial Prosperity with Robert Allen Miller, a seasoned Financial Adviser an investment broker. Allow Robert guide you through the complexities of the financial world, tailoring strategies to your unique goals.
           working with Robert will change your finanical life toward complete financial freedom.
            "
         />
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="robots" content="index" />
         <meta
           name="keywords"
-          content="RobertMiller, Robert ,forex, broker, crypto, financial adviser "
+          content="RobertAllenMiller, Robert Allen Miller ,forex, broker, crypto, financial adviser "
         />
         <meta name="keywords" content="love, relationship happiness" />
         <link rel="stylesheet" href="/final/fontawesome.min.css" />
@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/swiper/css/swiper-bundle.min.css" />
         <link rel="shortcut icon" href="/asset/img/robertshort.png" />
         {/* <link rel="stylesheet" href="./final/index.min.css" /> */}
-        <title>Rober Miller</title>
+        <title>Rober Allen Miller</title>
         <script src="/jquery.3.4.1.js?cd=123"></script>
         <script src="/swiper/owl.carousel.min.js"></script>
         <script src="/final/all.js"></script>
