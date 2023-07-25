@@ -236,10 +236,17 @@ const index = () => {
             </h1>
           </motion.div>
           <motion.div variants={genchild} initial="initial" animate="animate">
+            <h3 className=" font-weight-bolder text-white">
+              {" "}
+              Welcome to the World of Digital Assets.
+            </h3>
             <p className="header__p">
-              I am a professional Investment Adviser with over 10 years of
-              experience in leading clients in making highly profitable
-              investment decisions in financial market such as <br />
+              If you’re looking to dive into the exciting and potentially
+              lucrative world of digital assets, you’ve come to the right place.
+              As a financial market coach and trader , I am here to guide you on
+              your journey toward financial freedom and independence. With my
+              help, you will be able to navigate the complex and
+              rapidly-evolving world of digital assets such as. <br />
             </p>
             <ul className="header__ul">
               <li>crypto</li>
@@ -248,6 +255,10 @@ const index = () => {
               <li>forex</li>
               <li>Real Estate</li>
             </ul>
+            <p className="header__p">
+              {" "}
+              with confidence, understanding, and success.
+            </p>
             <div className="d-flex">
               <button className="header__button">contact me</button>
             </div>
@@ -266,16 +277,20 @@ const index = () => {
           <img src="./asset/img/city.png" alt="" />
           <div className="trust__mover">
             <div>
-              <p>| Lorem, ipsum dolor.</p>
-              <h1>85%</h1>
+              <p>| Estimated profit Accumulated.</p>
+              <h1>48M</h1>
             </div>
             <div>
-              <p>| Lorem, ipsum dolor.</p>
-              <h1>85%</h1>
+              <p>| Active Client Portfolio.</p>
+              <h1>11K</h1>
             </div>
             <div>
-              <p>| Lorem, ipsum dolor.</p>
-              <h1>85%</h1>
+              <p>| Quality and Satisfaction Guaranteed.</p>
+              <h1>100%</h1>
+            </div>
+            <div>
+              <p>| Vistiros-Client-Conversation.</p>
+              <h1>100%</h1>
             </div>
           </div>
         </div>
@@ -289,7 +304,7 @@ const index = () => {
             whileInView={"animate"}
           >
             <div className="core__img">
-              <img src="./asset/img/miartins-8.png" alt="" />
+              <img src="./asset/img/Robert-8.png" alt="" />
             </div>
           </motion.div>
           <div>
