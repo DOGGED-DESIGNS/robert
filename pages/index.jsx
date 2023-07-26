@@ -181,7 +181,7 @@ const index = () => {
           className="nav2"
         >
           <div className="nav__logo">
-            <img src="./asset/icons/martins.svg" alt="" />
+            <img src="./asset/icons/robert.svg" alt="" />
           </div>
 
           <motion.div
@@ -272,19 +272,14 @@ const index = () => {
         </motion.div>
       </header>
 
-      <motion.div
+      <motion.section
         variants={genchild}
         initial="initial"
         animate="animate"
         whileInView={"animate"}
         className="trust main"
       >
-        <motion.div
-          variants={genchild}
-          initial="initial"
-          whileInView="animate"
-          className="trust__display"
-        >
+        <div className="trust__display">
           <img src="./asset/img/bitcoin.png" alt="" />
           <div className="trust__mover">
             <div>
@@ -304,8 +299,8 @@ const index = () => {
               <h1>100%</h1>
             </div>
           </div>
-        </motion.div>
-      </motion.div>
+        </div>
+      </motion.section>
 
       <section className="core main">
         <div className="core__grid">
@@ -485,10 +480,14 @@ const index = () => {
         <h2 className="text-center">Programs</h2>
 
         <p className="text-center mt-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste
-          libero, officia consectetur esse corporis? Ea aliquid aspernatur
-          explicabo ullam necessitatibus itaque tempora porro. Expedita
-          excepturi dolorem optio omnis ipsa.
+          I offer proper education around fundamentals, risk management, and
+          best trading practices traders are lacking. I believe that traders and
+          investors need access to proper education. My Trade sessions are built
+          around a support network, and a trading community with a flexible work
+          time frame depending on your own time. My signals are delivered in
+          real-time for the most familiar crypto-currency pairs which is the
+          perfect solution when it comes to dissecting and deciphering
+          crypto-trading signals. Why holdl blindly? trade smartly!
         </p>
       </section>
       <section className="bg-light py-5 card main mt-5">

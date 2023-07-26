@@ -34,11 +34,11 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/swiper/owl.carousel.min.css" />
         <link rel="stylesheet" href="/swiper/owl.theme.default.css" />
         <link rel="stylesheet" href="/swiper/css/swiper-bundle.min.css" />
-        <link rel="icon" href="/asset/icons/favicon (2).ico" />
+        <link rel="icon" href="/favicon (2).ico" />
         {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> */}
 
         {/* <link rel="stylesheet" href="./final/index.min.css" /> */}
-        <title>Rober Allen Miller</title>
+        <title>Robert Allen Miller</title>
         <script src="/jquery.3.4.1.js?cd=123"></script>
         <script src="/swiper/owl.carousel.min.js"></script>
         <script src="/final/all.js"></script>
