@@ -11,7 +11,7 @@ const index = () => {
     Animatez();
 
   const [error, setError] = useState(false);
-
+  const [loading, setLoading] = useState(false);
   const { addContacts, addcontact, setAddcontact } = Makepost();
 
   const [toggle, setToggle] = useState(false);
@@ -564,6 +564,7 @@ const index = () => {
           <div className="contact__form">
             <form
               onSubmit={async (e) => {
+                setLoading(true);
                 e.preventDefault();
 
                 if (
@@ -572,6 +573,7 @@ const index = () => {
                   e.target.elements.des.value == ""
                 ) {
                   setError(true);
+                  setLoading(false);
                 } else {
                   const formz = new FormData();
 
@@ -582,7 +584,9 @@ const index = () => {
 
                   await addContacts(formz);
                   setError(false);
+                  setLoading(false);
                 }
+                setLoading(false);
               }}
               action=""
             >
@@ -753,7 +757,7 @@ const index = () => {
                 disabled={text || name || email ? true : false}
                 className="contact__button"
               >
-                submit
+                {loading ? "please wait..." : "submit"}
               </button>
             </form>
           </div>
