@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/swiper/owl.carousel.min.css" />
         <link rel="stylesheet" href="/swiper/owl.theme.default.css" />
         <link rel="stylesheet" href="/swiper/css/swiper-bundle.min.css" />
-        <link rel="icon" href="/favicon (2).ico" />
+        <link rel="icon" sizes="16x16" href="/favicon (2).ico" />
         {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> */}
 
         {/* <link rel="stylesheet" href="./final/index.min.css" /> */}
