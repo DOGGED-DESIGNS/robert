@@ -36,7 +36,18 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/swiper/css/swiper-bundle.min.css" />
         {/* <link rel="icon" sizes="16x16" href="/favicon (2).ico" /> */}
 
-        <link rel="icon" href="%PUBLIC_URL%/favicon (2).ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon (2).ico"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon (2).ico"
+        />
         {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> */}
 
         {/* <link rel="stylesheet" href="./final/index.min.css" /> */}
