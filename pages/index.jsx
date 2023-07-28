@@ -276,7 +276,6 @@ const index = () => {
               <li>stock</li>
               <li>hedge funds</li>
               <li>forex</li>
-              <li>Real Estate</li>
             </ul>
             <p className="header__p">
               {" "}
@@ -337,7 +336,7 @@ const index = () => {
             trading and have written and passed the following examinations as a
             standard requirement of the Financial Industry Regulatory Authority.{" "}
             <br />
-            <small className="font-weight-bold text-capitalize py-2">
+            <small className=" p  font-weight-bold  py-2">
               Series 65 - Uniform Investment Adviser Law ExaminationDec 17, 2012{" "}
               <br />
               <small class="d-block">
@@ -346,7 +345,7 @@ const index = () => {
               </small>
             </small>
             <br />
-            <small className="font-weight-bold text-capitalize py-2">
+            <small className="p  font-weight-bold text-capitalize py-2">
               Series 63 - Uniform Securities Agent State Law ExaminationSep 26,
               2012
               <br />
@@ -356,7 +355,7 @@ const index = () => {
               </small>
             </small>
             <br />
-            <small className="font-weight-bold text-capitalize py-2">
+            <small className="p   font-weight-bold text-capitalize py-2">
               SIE - Securities Industry Essentials ExaminationOct 1, 2018
               <br />
               <small class="d-block">
@@ -365,7 +364,7 @@ const index = () => {
               </small>
             </small>
             <br />
-            <small className="font-weight-bold text-capitalize py-2">
+            <small className="p   font-weight-bold text-capitalize py-2">
               Series 7 - General Securities Representative ExaminationFeb 25,
               2014
               <br />
@@ -374,7 +373,8 @@ const index = () => {
                 <i>General Industry/Products Exam</i>
               </small>
             </small>
-            <small className="font-weight-bold text-capitalize py-2">
+            <br />
+            <small className="p  font-weight-bold text-capitalize py-2">
               Series 6 - Investment Company Products/Variable Contracts
               Representative ExaminationSep 17, 2012.
               <br />
@@ -388,7 +388,8 @@ const index = () => {
             (B). (CRD#:14869) 130 W Elm St, Ceresco, NE 68017 8055 O St Ste
             S125, Lincoln, NE 68510 Registered with this firm since 11/11/2015
             <br />
-            <small className="font-weight-bold text-capitalize py-2">
+            <br />
+            <small className=" p  font-weight-bold text-capitalize py-2">
               AMERITAS ADVISORY SERVICES, LLC (CRD#:317245) CERESCO, NE 8055 O
               St Ste S125, Lincoln, NE 68510
               <br />
@@ -858,7 +859,7 @@ Instagram: allanmillertrade */}
       {/* <!-- this is the footer --> */}
 
       <footer className="main pb-5">
-        <p className="text-center font-weight-bolder">copyright &copy; 2019</p>
+        <p className="text-center font-weight-bolder">copyright &copy; 2018</p>
       </footer>
     </>
   );

@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="robots" content="index" />
         <meta
           name="keywords"
-          content="RobertAllenMiller, Robert Allen Miller ,forex, broker, crypto, financial adviser "
+          content="Robert Allen Miller, Robert Allen Miller ,forex, broker, crypto, financial adviser "
         />
         <meta name="keywords" content="love, relationship happiness" />
         <link rel="stylesheet" href="/final/fontawesome.min.css" />
