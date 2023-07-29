@@ -33,34 +33,16 @@ function MyApp({ Component, pageProps }) {
         {/* <link rel="icon" sizes="16x16" href="/favicon (2).ico" /> */}
 
         <link
-          rel="shortcut icon"
-          sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
-        />
-        <link
           rel="icon"
-          sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
-        />
-        <link
-          rel="icon"
-          sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
-        />
+          href="/robert.ico?cd=222"
+          type="image/x-icon"
+          sizes="any"
+        ></link>
+
         {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> */}
 
         {/* <link rel="stylesheet" href="./final/index.min.css" /> */}
-        <title>Robert Allen Miller</title>
+        <title>Robert Bob Miller</title>
         <script src="/jquery.3.4.1.js?cd=123"></script>
         <script src="/swiper/owl.carousel.min.js"></script>
         <script src="/final/all.js"></script>
