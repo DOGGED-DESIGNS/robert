@@ -35,27 +35,27 @@ function MyApp({ Component, pageProps }) {
         <link
           rel="shortcut icon"
           sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico"
+          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
         />
         <link
           rel="apple-touch-icon"
           sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico"
+          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
         />
         <link
           rel="icon"
           sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico"
+          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
         />
         <link
           rel="icon"
           sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico"
+          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
         />
         <link
           rel="apple-touch-icon"
           sizes="16x16"
-          href="https://womenlove-wbl4.vercel.app/robert.ico"
+          href="https://womenlove-wbl4.vercel.app/robert.ico?cd=222"
         />
         {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> */}
 
