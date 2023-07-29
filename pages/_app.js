@@ -18,18 +18,14 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Unlock the Path to Financial Prosperity with Robert Allen Miller, a seasoned Financial Adviser an investment broker. Allow Robert guide you through the complexities of the financial world, tailoring strategies to your unique goals.
+          content=" Unlock the Path to Financial Prosperity with Robert Allen Miller, a seasoned Financial Adviser an investment broker. Allow Robert guide you through the complexities of the financial world, tailoring strategies to your unique goals.
           working with Robert will change your finanical life toward complete financial freedom.
            "
         />
 
         <meta name="robots" content="index" />
         <meta name="robots" content="index" />
-        <meta
-          name="keywords"
-          content="Robert Allen Miller, Robert Allen Miller ,forex, broker, crypto, financial adviser "
-        />
-        <meta name="keywords" content="love, relationship happiness" />
+        <meta name="keywords" content="Robert Allen Miller" />
         <link rel="stylesheet" href="/final/fontawesome.min.css" />
         <link rel="stylesheet" href="/swiper/owl.carousel.min.css" />
         <link rel="stylesheet" href="/swiper/owl.theme.default.css" />
@@ -37,16 +33,29 @@ function MyApp({ Component, pageProps }) {
         {/* <link rel="icon" sizes="16x16" href="/favicon (2).ico" /> */}
 
         <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon (2).ico"
+          rel="shortcut icon"
+          sizes="16x16"
+          href="https://womenlove-wbl4.vercel.app/robert.ico"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="16x16"
+          href="https://womenlove-wbl4.vercel.app/robert.ico"
         />
         <link
           rel="icon"
-          type="image/png"
           sizes="16x16"
-          href="/favicon (2).ico"
+          href="https://womenlove-wbl4.vercel.app/robert.ico"
+        />
+        <link
+          rel="icon"
+          sizes="16x16"
+          href="https://womenlove-wbl4.vercel.app/robert.ico"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="16x16"
+          href="https://womenlove-wbl4.vercel.app/robert.ico"
         />
         {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> */}
 
