@@ -330,11 +330,11 @@ const index = () => {
             />
             <span className="d-block headtext">About Me</span>
             <br />
-            My name is Robert Allan Miller and I’m a digital asset enthusiast
+            My name is Robert Allen Miller, and I’m a digital asset enthusiast
             with a passion for helping others succeed in this exciting and
-            ever-evolving trading world. I have over 10years experience in
+            ever-evolving trading world. I have over 16years experience in
             trading and have written and passed the following examinations as a
-            standard requirement of the Financial Industry Regulatory Authority.{" "}
+            standard requirement of the Financial Industry Regulatory Authority.
             <br />
             <small className=" p  font-weight-bold  py-2">
               Series 65 - Uniform Investment Adviser Law ExaminationDec 17, 2012{" "}
@@ -365,8 +365,8 @@ const index = () => {
             </small>
             <br />
             <small className="p   font-weight-bold text-capitalize py-2">
-              Series 7 - General Securities Representative ExaminationFeb 25,
-              2014
+              Series 7 - General Securities Representative ExaminationApr 13,
+              2005.
               <br />
               <small class="d-block">
                 {" "}
@@ -384,18 +384,18 @@ const index = () => {
               </small>
             </small>
             <br />
-            I am currently registered under AMERITAS INVESTMENT COMPANY, LLC
-            (B). (CRD#:14869) 130 W Elm St, Ceresco, NE 68017 8055 O St Ste
-            S125, Lincoln, NE 68510 Registered with this firm since 11/11/2015
+            I am currently registered under CHARLES SCHWAB & CO., INC.
+            (CRD#:5393) 1958 Summit Park Dr., Orlando, FL 32810 Registered with
+            this firm since 12/20/2016 as a broker.
             <br />
             <br />
             <small className=" p  font-weight-bold text-capitalize py-2">
-              AMERITAS ADVISORY SERVICES, LLC (CRD#:317245) CERESCO, NE 8055 O
-              St Ste S125, Lincoln, NE 68510
+              A (INVESTMENT ADVISER) CHARLES SCHWAB & CO., INC. (CRD#:5393) 1958
+              Summit Park Dr., Orlando, FL 32810
               <br />
               <small class="d-block">
                 {" "}
-                <i>Registered with this firm since 11/1/2021.</i>
+                <i>Registered with this firm since 2/27/2017.</i>
               </small>
             </small>
             <br />
@@ -404,29 +404,37 @@ const index = () => {
             </span>{" "}
             <br />
             <small className="font-weight-bold text-capitalize py-2">
-              AMERITAS ADVISORY SERVICES (CRD#:14869) LINCOLN, NE
+              SECURITIES AMERICA, INC. (CRD#:10205) NEW YORK, NY
               <br />
               <small class="d-block">
                 {" "}
-                <i>11/12/2015 - 11/01/2021</i>
+                <i>05/28/2014 - 01/26/2016</i>
               </small>
             </small>
             <br />
             <small className="font-weight-bold text-capitalize py-2">
-              WELLS FARGO ADVISORS, LLC (CRD#:19616) LINCOLN, NE
+              CHARLES SCHWAB & CO., INC. (CRD#:5393) ORLANDO, FL
               <br />
               <small class="d-block">
                 {" "}
-                <i>12/19/2012 - 10/16/2015</i>
+                <i>07/15/2008 - 05/12/2014</i>
               </small>
             </small>
             <br />
             <small className="font-weight-bold text-capitalize py-2">
-              WELLS FARGO ADVISORS, LLC (CRD#:19616) LINCOLN, NE
+              WACHOVIA SECURITIES, LLC (CRD#:19616) BRADENTON, FL
               <br />
               <small class="d-block">
                 {" "}
-                <i>09/18/2012 - 10/16/2015.</i>
+                <i>05/31/2007 - 04/04/2008.</i>
+              </small>
+            </small>
+            <br />
+            <small className="font-weight-bold text-capitalize py-2">
+              AMERIPRISE FINANCIAL SERVICES, INC. (CRD#:6363) ORLANDO, FL <br />
+              <small class="d-block">
+                {" "}
+                <i>04/29/2005 - 05/31/2006</i>
               </small>
             </small>
             <br />I have gained valuable experience in Investing, as well as a
@@ -640,15 +648,15 @@ Instagram: allanmillertrade */}
 
               <motion.div variants={genchild} className="contact__flex">
                 <i className="fab fa-instagram"></i>
-                <p>allanmillertrade</p>
+                <p>Alenmillertrade</p>
               </motion.div>
               <motion.div variants={genchild} className="contact__flex">
                 <i className="fa fa-envelope"></i>
-                <p>robertallanmiller17@gmail.com</p>
+                <p>Robertallenmiller31@gmail.com</p>
               </motion.div>
               <motion.div variants={genchild} className="contact__flex">
                 <i className="fab fa-telegram"></i>
-                <p>Allanmillertrade</p>
+                <p>Alenmillertrade</p>
               </motion.div>
             </motion.div>
           </div>

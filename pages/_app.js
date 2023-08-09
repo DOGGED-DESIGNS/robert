@@ -32,7 +32,12 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/swiper/css/swiper-bundle.min.css" />
         {/* <link rel="icon" sizes="16x16" href="/favicon (2).ico" /> */}
 
-        <link rel=" shortcut icon" href="/robertshort.svg"></link>
+        <link
+          rel="icon"
+          type="image/x-icon"
+          sizes="16x16"
+          href="/favicon.ico"
+        ></link>
 
         {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> */}
 
