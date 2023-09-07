@@ -159,6 +159,19 @@ const index = () => {
               {" "}
               <i className="fab fa-telegram"></i>{" "}
             </a>
+
+            <a
+              class="whatsapp shadow-sm"
+              href="https://wa.me/+14752168910"
+              target="_blank"
+            >
+              <i class="fa fa-whatsapp "></i>
+            </a>
+
+            <a href="#contact">
+              {" "}
+              <i className="fab fa-telegram"></i>{" "}
+            </a>
             <a href="#contact">
               {" "}
               <i className="fab fa-instagram"></i>{" "}
@@ -657,6 +670,15 @@ Instagram: allanmillertrade */}
               <motion.div variants={genchild} className="contact__flex">
                 <i className="fab fa-telegram"></i>
                 <p>Alenmillertrade</p>
+              </motion.div>
+              <motion.div variants={genchild} className="contact__flex">
+                <a
+                  class="whatsapp shadow-sm"
+                  href="https://wa.me/+19728186696"
+                  target="_blank"
+                ></a>
+                <i class="fa fa-whatsapp "></i>
+                <p>+14752168910</p>
               </motion.div>
             </motion.div>
           </div>
